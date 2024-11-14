@@ -89,7 +89,7 @@ Build and Debugging
 1. Build
 
 $ git clone https://github.com/godmode2k/arm_assembly_test.git
-$ cd arm_assembly_test.git
+$ cd arm_assembly_test
 
 $ arm-none-linux-gnueabihf-as -o test_arm_asm_aarch32.o test_arm_asm_aarch32.s -g
 $ arm-none-linux-gnueabihf-ld -o test_arm_asm_aarch32.elf test_arm_asm_aarch32.o -g
